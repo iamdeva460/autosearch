@@ -1,0 +1,41 @@
+.suggestions{
+ position: relative;
+ margin-top: 1px;
+ border: 2px solid gray;
+ display: flex;
+ flex-direction: column;
+ width: 80%;
+ margin-left: 10%;
+ margin-right:10% ;
+ max-height: 600px;
+ min-height: auto;
+ overflow: scroll;
+ border-radius: 10px;
+
+}
+.right{
+    position: absolute;
+  right:0;
+
+}
+.large{
+    font-size:35px ;
+    background-color: lightgray;
+
+}
+.small{
+    font-size: 25px;
+    color: mediumslateblue;
+}
+.emp-data:hover{
+    cursor: pointer;
+    background-color: lightgray;
+
+}
+span{
+    padding: 5px;
+
+}
+hr {
+    border: 1px solid #ccc;
+    margin: 15px 0;}
